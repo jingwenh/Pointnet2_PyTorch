@@ -10,6 +10,7 @@ import torch.nn as nn
 import etw_pytorch_utils as pt_utils
 from collections import namedtuple
 
+# SA module = Set Abstraction module = sampling + grouping + PointNet
 from pointnet2.utils.pointnet2_modules import PointnetSAModuleMSG, PointnetSAModule
 
 
